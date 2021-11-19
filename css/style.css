@@ -1,0 +1,152 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+}
+
+/* This is the heading section  */
+
+.heading-section{
+    width: 320px;
+    color: hsl(234, 12%, 34%);
+    font-size: 15px;
+    text-align: center;
+    line-height: 15px;
+    margin:60px auto 40px ;
+}
+.title-light{
+    font-weight: 200;
+    color: black;
+}  
+.title-dark{
+    font-weight: 600;
+    color: rgb(78, 76, 76);
+}
+.distro{
+    color: rgb(180, 179, 179);
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    margin-top: -15px;
+    margin-bottom: 50px;
+}
+.para{
+    color: rgb(192, 191, 191);
+    font-size: 13px;
+    margin-top: -15px;
+}
+
+
+.border-top-cyan{
+    border-top:4px solid hsl(180, 62%, 55%);
+}
+.border-top-red{
+    border-top:4px solid hsl(0, 78%, 62%);
+}
+.border-top-orange{
+    border-top:4px solid hsl(34, 97%, 64%);
+}
+.border-top-blue{
+    border-top:4px solid hsl(212, 86%, 64%);
+}
+.container h3{
+    color: rgb(97, 95, 95);
+}
+
+
+/* Desktop Webpage starts here  */
+
+@media screen and (min-width:822px){
+
+    /* We have all the container styles here */
+    .heading-section{
+        width: 350px;
+        font-size: 19px;
+    }
+    .distro{
+        margin: 0 auto;
+        width: 30%;
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+    .main-container{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        
+    }
+    .etc{
+        display: flex;
+        margin: 0 auto;
+    }
+    .container{
+        font-weight: 400;
+        max-width: 300px;
+        height: 220px;
+        padding: 10px 25px;
+        background-color: white;
+        box-shadow:0px 2px 5px gray;
+        border-radius:4px;
+    }
+
+   .left-container{
+       padding: 100px 20px;
+   }
+    .right-container{
+        padding: 100px 20px;
+    }
+    .border-top-red{
+        margin-bottom: 20px;
+    }
+    .box-icon{
+        float: right;
+        margin-top:50px;
+    }
+    
+    /* Fotter Section is Here */
+    .attribution {
+        margin: 170px 0 auto;
+        font-size: 18px;
+        color: rgb(165, 164, 164);
+        text-align: center;
+    }
+    .attribution a {
+        text-decoration: none;
+        color: rgb(99, 98, 98);
+    }
+    
+}
+
+/* Mobile Webpage starts here  */
+
+@media screen and (max-width:822px){
+
+
+    /* We have all the container styles here */
+    
+    .container{
+        font-weight: 400;
+        margin: 20px auto;
+        width: 250px;
+        height: 200px;
+        padding: 10px 25px;
+        background-color: white;
+        box-shadow:0px 2px 5px gray;
+        border-radius:4px;
+    }
+    .box-icon{
+        float: right;
+        margin-top: 30px;
+    }
+    
+    /* Fotter Section is Here */
+    
+    .attribution {
+        margin-top: 150px;
+        font-size: 11px; text-align: center;
+    }
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+        text-decoration: none;
+    }
+    
+    }
